@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Urbanist:wght@200&family=Wix+Madefor+Text&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&family=Wix+Madefor+Text&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Space+Grotesk:wght@300&family=Space+Mono&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@300&family=Raleway:wght@300&family=Urbanist:wght@200&family=Wix+Madefor+Text:wght@500&display=swap');
+        
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+        
+        .custom-div {
+            cursor: pointer;
+            height: 140px;
+            background-color: rgba(221, 247, 248, 0.719);
+        }
+
+        .custom-div:hover {
+            background-color: #5486f37c;
+            color: white;
+        }
+
+        .colorb {
+            border-color: rgb(155, 210, 212);
+        }
+
+        .custom-btn {
+            background-color: #ffffff;
+            color: rgb(54, 131, 245);
+            border-color: #b2dff8;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .custom-btn:hover {
+            background-color: white;
+            color: #007bff;
+            border: 1px solid #007bffa1;
+        }
+
+        .botarrb-btn {
+            background-color: white;
+            color: #007bff;
+            border: 1px solid #007bff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .botarrb-btn:hover {
+            background-color: #007bff;
+            color: white;
+            border: 1px solid white;
+            ;
+        }
+
+        .textbac {
+            font-family: 'Wix Madefor Text', sans-serif;
+        }
+
+        .text-sepa {
+            font-family: 'Montserrat', sans-serif;
+            color: #4a4a4ea8;
+        }
+
+        .pointr {
+            cursor: pointer;
+        }
+
+        .input-linea {
+            border: none;
+            border-bottom: 2px solid #144e8bbb;
+            border-radius: 0;
+            box-shadow: none;
+            padding: 0;
+            height: auto;
+            background: none;
+        }
+
+        .input-no-fondo {
+            background-color: transparent !important;
+            font-size: 25px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .input-linea:focus {
+            box-shadow: none;
+        }
+
+        .colorb:focus {
+            box-shadow: none;
+        }
+
+        .iconog {
+            color: #007bff;
+            font-size: 21px;
+        }
+
+        .estad {
+            cursor: pointer;
+            background-color: #c8f383e0;
+            color: rgb(0, 0, 0);
+            width: 100px;
+        }
+        .ncom{
+            
+            background-color: rgb(255, 98, 26);
+            color: #ffffff;
+            width: 130px;
+        }
+
+        .estado-txt {
+            font-family: 'Raleway', sans-serif;
+            font-size: 13px;
+        }
+
+        .colorb {
+            border-color: rgba(159, 211, 247, 0.692);
+        }
+
+        .colorb:focus {
+            box-shadow: none;
+        }
+
+        .tabcol {
+            background-color: #a3c6eb73;
+            border-top: 1px solid #007bffa1;
+            border-bottom: 1px solid #007bffa1;
+        }
+
+        .span-fac{
+            font-size: 12px;
+        }
+        .span-tot{
+            font-size: 13px;
+            color: gray;
+        }
+        .partab{
+            background-color: #bfeef748;
+            border: 1px solid #bfeef7bb;
+        }

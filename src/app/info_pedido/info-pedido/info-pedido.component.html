@@ -1,0 +1,528 @@
+<div class="container">
+    <div class="general mt-4">
+        <div class="d-block justify-content-content">
+
+            <div class="col col-lg-12" >
+                <div class="d-flex justify-content-lg-between" style="align-items: center;">
+                    <div class="col col-lg-3"><strong style="font-size: 28px; font-family: 'Poppins', sans-serif; padding-left: 8px; ">Pedido n.° 10002</strong>
+                        </div>
+                        <div class="d-block col-lg-1 text-center" style="margin-right: 10px;">
+                            <div class="estad border-ligth">
+                            <p class="estado-txt m-1"><strong>PAGADO</strong></p>
+                        </div>
+                        
+                        </div>
+                    <div class="col col-lg-2 text-center" style="margin-right: auto;">
+                        <div class="ncom border-ligth">
+                            <p class="estado-txt m-1"><strong>NO COMPLETADO</strong></p> 
+
+                            
+
+                        </div>
+                        
+                       
+
+                    </div>
+                    
+                   
+                    <div class="col col-lg-2 " style="padding-right: 6px;">
+                        <select class="form-select form-select-sm custom-btn  rounded-4 text-center"
+                            aria-label="form-select-sm example">
+                            <option selected disabled>Mas acciones</option>
+                            <option value="1">Marcar como completado</option>
+                            <option value="2">Enviar email con confirmación de envío</option>
+                            <option value="3">Imprimir pedido</option>
+                            <option value="4">Cancelar y reembolsar</option>
+                            <option value="5">Emitir reemboso</option>
+                            <option value="6">Ver factura</option>
+                            <option value="7">Archivar</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-lg-12 mt-3 mb-3">
+                <div class="d-flex justify-content-content">
+
+                    <div class="col col-lg-8 ">
+                        <div class="d-block justify-content-content">
+
+                            <div class="col col-lg-12 p-2">
+                                <div class="d-block justify-content-center bg-white rounded-3" >
+                                    <div class="col col-lg-5 p-3 text-start" style="align-items: center;">
+                                        <h5><strong style="padding-top: 7px; font-size: 25px; padding-left: 11px; font-family: 'Poppins', sans-serif;">Ítems (2)</strong></h5 >
+                                    </div>
+                                    <div class="col col-lg-12 tabcol p-1" >
+                                        <div class="d-flex justify-content-between">
+                                            <div class="col col-lg-4 text-star" style="align-items: center;  padding-top: 5px; padding-left: 19px;">
+                                                <h5 style="font-family: 'Poppins', sans-serif; font-size: 19px;">Productos a enviar</h5>
+                                            </div>
+                                            <div class="col col-lg-4 text-center" style="font-family: 'Poppins', sans-serif;">
+                                                <button class="btn btn-ligth btn-sm rounded-4 custom-btn"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal1" >
+                                                    <i class="fa-regular fa-plus m-1"></i>
+                                                    Agregar n° de seguimiento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-12 p-4">
+                                        <div class="row d-block justify-content-center">
+                                            <div class="col col-lg-12 mb-3">
+                                                <div class="row d-flex justify-content-center">
+                                                    <div class="col col-lg-2 text-center">
+                                                        <img src="https://cdn.discordapp.com/attachments/1113571254847422474/1113573392398950430/image.png" alt=""
+                                                        width="80x" height="50px" class="">
+                                                    </div>
+                                                    <div class="col col-lg-5">
+                                                        <div class="row d-block justify-content-center">
+                                                            <div class="col col-lg-12">Esto es un producto</div>
+                                                            <div class="col col-lg-12">SKU: 364215376135199</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col col-lg-2 pt-2">S/.85.00</div>
+                                                    <div class="col col-lg-1 pt-2">X 1</div>
+                                                    <div class="col col-lg-2 pt-2">S/.85.00</div>
+                                                </div>
+                                            </div>
+                                            <div class="col col-lg-12 mb-2">
+                                                <div class="row d-flex justify-content-center">
+                                                    <div class="col col-lg-2 text-center">
+                                                        <img src="https://cdn.discordapp.com/attachments/1113571254847422474/1113572695569858661/image.png" alt=""
+                                                        width="80x" height="50px" class="">
+                                                    </div>
+                                                    <div class="col col-lg-5">
+                                                        <div class="row d-block justify-content-center">
+                                                            <div class="col col-lg-12">Esto es un producto</div>
+                                                            <div class="col col-lg-12">SKU: 364215376135199</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col col-lg-2 pt-2">S/.85.00</div>
+                                                    <div class="col col-lg-1 pt-2">X 1</div>
+                                                    <div class="col col-lg-2 pt-2">S/.85.00</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Modal 1 -->
+                            <div class="modal fade" id="Modal1" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Agregar número de
+                                                seguimiento</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row d-block justify-content-center">
+                                                <div class="col col-lg-12 mb-4 mt-2">
+                                                    <div class="row d-flex justify-content-evenly">
+                                                        <div class="col col-lg-6 ">
+                                                            <div class="row d-block justify-content-center">
+                                                                <div class="col col-lg-12">
+                                                                    Número de seguimiento
+                                                                </div>
+                                                                <div class="col col-lg-12">
+                                                                    <input type="text"
+                                                                        class="form-control form-control-sm rounded-3 mt-1 colorb"
+                                                                        placeholder="" aria-label="nombre"
+                                                                        aria-describedby="basic-addon1">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col col-lg-5">
+                                                            <div class="row d-block justify-content-center ">
+                                                                <div class="col col-lg-12 ">
+                                                                    Operador de envío
+                                                                </div>
+                                                                <div class="col col-lg-12">
+                                                                    <select
+                                                                        class="form-select form-select-sm colorb pointr rounded-4 mt-1 text-center"
+                                                                        aria-label="form-select-sm example">
+                                                                        <option selected disabled>Seleccionar
+                                                                        </option>
+                                                                        <option value="1">FedEx</option>
+                                                                        <option value="2">USPS</option>
+                                                                        <option value="3">UPS</option>
+                                                                        <option value="4">DHL</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col col-lg-12">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input pointr" type="checkbox"
+                                                            value="" id="flexCheckChecked" checked>
+                                                        <label class="form-check-label" for="flexCheckChecked">
+                                                            Enviar email de confirmación de envío
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col col-lg-12">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input pointr" type="checkbox"
+                                                            value="" id="flexCheckChecked" checked>
+                                                        <label class="form-check-label" for="flexCheckChecked">
+                                                            Aplicar a todos los ítems autocompletados de este pedido
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-sm botarrb-btn"
+                                                data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="button" class="btn btn-primary btn-sm">Aplicar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col col-lg-12 p-2" >
+                                <div class="d-block justify-content-center rounded-3 p-4 bg-white" >
+                                    <div class="col col-lg-12 align-items-center" >
+                                        <div class="d-flex justify-content-between">
+                                            <div class="col col-lg-7">
+                                                <div class="d-flex justify-content-start">
+                                                    <div class="col col-lg-6 text-star" >
+                                                        <h5 style="font-size: 19px; font-family: 'Poppins', sans-serif;; padding-top: 3px;">Información del pago</h5>
+                                                    </div>
+                                                    <div class="col col-lg-2 text-center">
+                                                        <div class="estad border-ligth">
+                                                            <p class="estado-txt m-1"><strong>PAGADO</strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col col-lg-4">
+                                                <div class="row d-flex justify-content-center ">
+                                                    <div class="col col-lg-5">
+                                                        <button class="btn btn-light btn-sm rounded-4 custom-btn " data-bs-toggle="modal" 
+                                                        data-bs-target="#Modal2" style="width: 100px;font-family: 'Poppins', sans-serif;">Ver factura</button>
+                                                        
+
+                                                    </div>
+                                                    <div class="col col-lg-4 text-end ">
+                                                        <button class="btn btn-ligth btn-sm rounded-4 custom-btn" style="width: 100px;font-family: 'Poppins', sans-serif;">
+                                                        Reembolso</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="col col-lg-12">
+                                        <div class="d-block justify-content-center">
+                                            <div class="col col-lg-12 mb-1">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="col col-lg-2 text-star">
+                                                        Ítems
+                                                    </div>
+                                                    <div class="col col-lg-2 text-end ">
+                                                        S/.215.00
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col col-lg-12 mb-1">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="col col-lg-2 text-star ">
+                                                        Envío
+                                                    </div>
+                                                    <div class="col col-lg-2 text-end">
+                                                        S/.0.00
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col col-lg-12 mb-1">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="col col-lg-2 text-star ">
+                                                        Impuesto
+                                                    </div>
+                                                    <div class="col col-lg-2 text-end ">
+                                                        S/.0.00
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col col-lg-12">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="col col-lg-2 text-star">
+                                                        Total
+                                                    </div>
+                                                    <div class="col col-lg-2 text-end">
+                                                        S/.215.00
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="col col-lg-12">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="col col-lg-2 text-star">
+                                                Monto pagado
+                                            </div>
+                                            <div class="col col-lg-2 text-end">
+                                                 S/.215.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal 2-->
+                            <div class="modal fade" id="Modal2" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                  <div class="modal-content p-4">
+                                    <div class="row d-block justify-content-center">
+
+                                        <div class="col col-lg-12 ">
+                                            <div class="row d-flex justify-content-between">
+
+                                                <div class="col col-lg-7 text-star">
+                                                    <img src="https://static.wixstatic.com/media/b17314_5cecfa16fffc4f84a27a7339f34f0ba3~mv2.png/v1/fit/w_622,h_200,al_c,q_80,usm_0.66_1.00_0.01/b17314_5cecfa16fffc4f84a27a7339f34f0ba3~mv2.png" alt=""
+                                                    width="275px" height="100px">
+                                                    <h1 style="text-align: start; padding-top: 5px; font-family: 'Poppins', sans-serif; font-size: 13px;">MAFE MEDI</h1>
+                                                </div>
+
+                                                <div class="col col-lg-4 text-end pt-3">
+                                                    <h5 style="font-family: 'Poppins', sans-serif; font-size: 19px;"> <strong>Factura n.º 0000002 </strong></h5>
+                                                    <div class="row d-block justify-content-center" style="font-family: 'Poppins', sans-serif;">
+                                                        <div class="col col-lg-12">
+                                                            <span class="span-fac">Factura por pedido: n.º10002</span>
+                                                        </div>
+                                                        <div class="col col-lg-12">
+                                                            <span class="span-fac">Fecha de emisión: 10 may 2023</span>
+                                                        </div>
+                                                        <div class="col col-lg-12">
+                                                            <span class="span-fac">Fecha de vencimiento: 9 jun 2023</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                        </div>
+
+                                        <div class="col col-lg-12 mb-3">
+                                            <div class="row d-flex justify-content-start">
+                                                <div class="col col-lg-4 ">
+                                                    <div class="row d-block justify-content-center span-tot" style="font-family: 'Poppins', sans-serif; font-size: 10px;">
+                                                        <div class="col col-lg-12 ">Facturar a:</div>
+                                                        <div class="col col-lg-12 "> <strong>Eduardo Stefano Hernandez Vejarano</strong></div>
+                                                        <div class="col col-lg-12 ">Calle Las Granadas, 207
+                                                            Independencia, Lima 20354</div>
+                                                        <div class="col col-lg-12 ">Perú</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col col-lg-4 ">
+                                                    <div class="row d-block justify-content-center span-tot" style="font-family: 'Poppins', sans-serif; font-size: 10px;">
+                                                        <div class="col col-lg-12 "><strong>Información adicional del cliente:</strong></div>
+                                                        <div class="col col-lg-12 ">eduardo.hernandez@upeu.edu.pe</div>
+                                                        <div class="col col-lg-12 ">Teléfono: (01)523-2955</div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col col-lg-12 p-1">
+                                            <div class="table-responsive">
+                                                <table class="table rounded-bottom" style="background-color: #ffffff;">
+                        
+                                                    <thead class="border border-ligth text-center texttab border-primary" style="background-color:#4481dd5e; ">
+                                                        <tr style="font-family: 'Poppins', sans-serif;">
+                                                            <th class="col-4">Producto o Servicio</th>
+                                                            <th class="col-2">Cantidad</th>
+                                                            <th class="col-3">Precio</th>
+                                                            <th class="col-3">Total</th>
+                                                        </tr>
+                                                    </thead>
+                        
+                                                    <tbody class="text-center list-grup textbac" style="cursor: pointer; font-family: 'Poppins', sans-serif;">
+                                                        <tr>
+                                                            <td>
+                                                                Esto es un producto   
+                                                                SKU: 364215376135199
+                                                            </td>
+                                                            <td>1</td>
+                                                            <td>85,00 PEN</td>
+                                                            <td>85,00 PEN</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Esto es un producto
+                                                                SKU: 364215376135199
+                                                            </td>
+                                                            <td>1</td>
+                                                            <td>130,00 PEN</td>
+                                                            <td>130,00 PEN</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                        <div class="col col-lg-12 textbac mt-2" style="font-family: 'Poppins', sans-serif;">
+                                            <div class="row d-flex justify-content-end">
+                                                <div class="col col-lg-6 ">
+                                                    <div class="row d-block justify-content-center">
+
+                                                        <div class="col col-lg-12">
+                                                            <div class="row d-block justify-content-center">
+                                                                <div class="col col-lg-12">
+                                                                    <div class="row d-flex justify-content-between">
+                                                                        <div class="col col-lg-5 text-center">
+                                                                            <span>Subtotal</span>
+                                                                        </div>
+                                                                        <div class="col col-lg-6  text-center">
+                                                                            <span>215,00 PEN</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col col-lg-12">
+                                                                    <div class="row d-flex justify-content-between">
+                                                                        <div class="col col-lg-5 text-center">
+                                                                            <span>Impuesto (0%)</span>
+                                                                        </div>
+                                                                        <div class="col col-lg-6  text-center">
+                                                                            <span>0,00 PEN</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                        </div>
+                                                        <div class="col col-lg-12 mb-2">
+                                                            <div class="row d-block justify-content-center">
+                                                                <div class="col col-lg-12">
+                                                                    <div class="row d-flex justify-content-between">
+                                                                        <div class="col col-lg-5 text-center">
+                                                                            <span>Total factura</span>
+                                                                        </div>
+                                                                        <div class="col col-lg-6 text-center">
+                                                                            <span>215,00 PEN</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col col-lg-12">
+                                                                    <div class="row d-flex justify-content-between">
+                                                                        <div class="col col-lg-5 text-center">
+                                                                            <span>Monto pagado</span>
+                                                                        </div>
+                                                                        <div class="col col-lg-6 text-center">
+                                                                            <span>215,00 PEN</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col col-lg-12 mt-3">
+                                                            <div class="partab d-flex justify-content-between rounded-3 p-2">
+                                                                <div class="col col-lg-5 text-center">Saldo adeudado</div>
+                                                                <div class="col col-lg-6 text-center">0,00 PEN</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>         
+                                  </div>
+                                </div>
+                              </div>
+                              
+
+                            <div class="col col-lg-12 p-2">
+                                <div class="d-block justify-content-center bg-white rounded-3 p-4 align-items-center">
+                                    <div class="col col-lg-12">
+                                        <h5  style="font-size: 19px; font-family: 'Poppins', sans-serif;;">Actividad de pedido</h5>
+                                        <hr>
+                                    </div>
+                                    <div class="col col-lg-12">
+                                        <div class="d-block justify-content-center">
+                                            <div class="col col-lg-6 mb-3">
+                                                Agrega una nota (tu cliente no verá esto)
+                                            </div>
+                                            <div class="col col-lg-9">
+                                                <textarea class="form-control form-control-sm rounded-3 mt-2 colorb"
+                                                    rows="2" id="floatingTextarea"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col col-lg-4 ">
+                        <div class="d-block justify-content-content">
+
+                            <div class="col col-lg-12 p-2">
+                                <div class="d-flex justify-content-content rounded-3 p-4 bg-white">
+                                    <div class="col col-lg-1 text-end">
+                                        <i class="fa-solid fa-bag-shopping iconog"></i>
+                                    </div>
+                                    <div class="col col-lg-10 text-center" style="font-family: 'Poppins', sans-serif;">
+                                        Creaste este pedido manualmente.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-lg-12  p-2">
+                                <div class="d-block justify-content-content rounded-3 p-4 bg-white">
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col col-lg-10">
+                                            <h5 class="text-start"> <strong style="font-size: 19px; padding-top: 2px; font-family: 'Poppins', sans-serif;">Información del pedido</strong></h5>
+                                        </div>
+                                        <div class="col col-lg-2" >
+                                           
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="col col-lg-12 ">
+                                        <p class="text-decoration-underline" style="font-family: 'Poppins', sans-serif;">Información de contacto</p>
+                                        <span style="font-family: 'Poppins', sans-serif;">eduardo.hernandez@upeu.edu.pe</span>
+                                    </div>
+                                    <hr>
+                                    <div class="col col-lg-12 ">
+                                        <p class="text-decoration-underline" style="font-family: 'Poppins', sans-serif;">Metodo de envío</p>
+                                        <span style="font-family: 'Poppins', sans-serif;">Envio gratuito</span>
+                                    </div>
+                                    <hr>
+                                    <div class="col col-lg-12 ">
+                                        <p class="text-decoration-underline" style="font-family: 'Poppins', sans-serif;">Dirección de envío</p>
+                                        <div class="d-block justify-content-center">
+                                            <div class="col col-lg-12 mb-2">
+                                                <span style="font-family: 'Poppins', sans-serif;">Hernandez Vejarano Eduardo Stefano</span>
+                                            </div>
+                                            <div class="col col-lg-12 mb-2">
+                                                <span style="font-size: 12px; font-family: 'Poppins', sans-serif;">Calle Las Granadas, 207
+                                                    Independencia, Lima 20354, Perú</span>
+                                            </div>
+                                            <div class="col col-lg-12">
+                                                <h6 style="font-family: 'Poppins', sans-serif;">(01)523-2955</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="col col-lg-12">
+                                        <p class="text-decoration-underline" style="font-family: 'Poppins', sans-serif;">Dirección de facturación</p>
+                                        <span style="font-family: 'Poppins', sans-serif;">Igual que la de envío</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

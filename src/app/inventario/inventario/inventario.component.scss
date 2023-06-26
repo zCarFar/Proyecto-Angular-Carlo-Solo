@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&family=Wix+Madefor+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.custom-btn {
+  background-color: white;
+  color: #007bff;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.custom-btn:hover {
+  background-color: #97d9ff;
+  color: white;
+  
+}
+.forme {
+  background-color: rgb(206, 247, 196);
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+.forme:hover {
+  background-color: #070808;
+  color: white;
+}
+
+.border{
+  border-color: #67B1F7;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #d0f1fa59;
+  color: white;
+  cursor: pointer;
+}
+
+.circle-container {
+  display: flex;
+  align-items: center;
+}
+
+.selects {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  color: #007bff;
+  margin-right: 5px;
+}
+
+.circle:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.textbac {
+  font-family: 'Wix Madefor Text', sans-serif;
+}
+
+.texttab {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.input-group {
+  position: relative;
+}
+
+.ga {
+  position: absolute;
+  left: 12px;
+  padding-top: 9px;
+  color: #007bff;
+  pointer-events: none;
+  z-index: 2; /* Asegura que el ícono esté en la parte superior */
+}
+
+
+.input {
+  padding: 15px 15px 15px 50px;
+}

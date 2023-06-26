@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&family=Wix+Madefor+Text&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Space+Grotesk:wght@300&family=Space+Mono&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@300&family=Raleway:wght@300&family=Urbanist:wght@200&family=Wix+Madefor+Text:wght@500&display=swap');
+
+        .custom-div {
+            cursor: pointer;
+            height: 140px;
+            background-color: rgb(206, 247, 196);
+        }
+
+        .custom-div:hover {
+            background: linear-gradient(#aafdaa,#def1e4);
+            color: rgb(255, 255, 255);
+
+        }
+
+        .colorb {
+            border-color: rgb(155, 210, 212);
+        }
+
+        .custom-btn {
+            background-color: rgb(206, 247, 196);
+            color: #000000;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .custom-btn:hover {
+            background-color: #000000;
+            color: white;
+        }
+        .sipe{
+            color: #000000;
+        }
+        
+
+        .botarrb-btn {
+            background-color: #ffffff;
+            color: rgb(54, 131, 245);
+            border-color: #b2dff8;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        .botarrb-btn:hover {
+            background-color: white;
+            color: #007bff;
+            border: 1px solid #007bffa1;
+        }
+        .btn-white {
+            background-color: white;
+          }
+        .btn-blue-text{
+            color: #2db1ee;
+        }  
+        .textbac {
+            font-family: 'Wix Madefor Text', sans-serif;
+        }
+
+        .text-sepa {
+            font-family: 'Montserrat', sans-serif;
+            color: #4a4a4ea8;
+        }
+
+        .bord {
+            border: 2px dashed #000000bb;
+        }
+        .bord:hover{
+            color: #ffffff;
+        }
+
+        
+
+        .pointr {
+            cursor: pointer;
+        }
+
+        .input-linea {
+            border: none;
+            border-bottom: 2px solid #144e8bbb;
+            border-radius: 0;
+            box-shadow: none;
+            padding: 0;
+            height: auto;
+            background: none;
+        }
+
+        .input-no-fondo {
+            background-color: transparent !important;
+            font-size: 25px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+
+        .input-linea:focus {
+            box-shadow: none;
+        }
+
+        .colorb:focus {
+            box-shadow: none;
+        }
