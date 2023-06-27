@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&family=Wix+Madefor+Text&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&family=Wix+Madefor+Text&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Space+Grotesk:wght@300&family=Space+Mono&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@300&family=Raleway:wght@300&family=Urbanist:wght@200&family=Wix+Madefor+Text:wght@500&display=swap');
+
+    .custom-btn:hover {
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        transition: background-color 0.3s, color 0.3s;
+        cursor: pointer;
+    }
+
+    .custom-btn {
+        background-color: rgb(37, 129, 233);
+        color: #ffffff;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .ga {
+        position: absolute;
+        left: 12px;
+        padding-top: 9px;
+        color: #007bff;
+        pointer-events: none;
+        z-index: 2; /* Asegura que el ícono esté en la parte superior */
+      }
+      
+
+    .c-btn:hover {
+        background-color: #000000;
+        color: white;
+    }
+
+    .c-btn:hover {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #d5ffff46;
+        color: white;
+        cursor: pointer;
+    }
+
+    .circle-container {
+        display: flex;
+        align-items: center;
+    }
+    .selects{
+        color: #0d6efd;
+        border-color: #0d6efd;
+    }
+    .circle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: white;
+        color: #007bff;
+        margin-right: 5px;
+    }
+
+    .circle:hover {
+        background-color: #007bff;
+        color: white;
+    }
+    .c{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: white;
+        color: #007bff;
+        margin-right: 5px;
+        
+    }
+    .c:hover {
+        background-color: #007bff;
+        color: white;
+    }
+    
+
+    
+    .textbac{
+        font-family: 'Wix Madefor Text', sans-serif;
+    }
+    .texttab{
+        font-family: 'Open Sans', sans-serif;
+    }

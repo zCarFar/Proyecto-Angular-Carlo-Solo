@@ -21,6 +21,7 @@ import { AgregarProductoComponent } from './agregar_producto/agregar-producto/ag
 import { PedidosComponent } from './pedidos/pedidos/pedidos.component';
 import { InfoPedidoComponent } from './info_pedido/info-pedido/info-pedido.component';
 import { AgregarPedidoComponent } from './agregar-pedido/agregar-pedido.component';
+import { FacturasComponent } from './facturas/facturas/facturas.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { AgregarPedidoComponent } from './agregar-pedido/agregar-pedido.componen
     AgregarProductoComponent,
     PedidosComponent,
     InfoPedidoComponent,
-    AgregarPedidoComponent
+    AgregarPedidoComponent,
+    FacturasComponent
   ],
   imports: [
     BrowserModule,

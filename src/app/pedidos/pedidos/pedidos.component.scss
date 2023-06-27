@@ -1,74 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Urbanist:wght@200&family=Wix+Madefor+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&family=Wix+Madefor+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&family=Wix+Madefor+Text&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Space+Grotesk:wght@300&family=Space+Mono&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@300&family=Raleway:wght@300&family=Urbanist:wght@200&family=Wix+Madefor+Text:wght@500&display=swap');
 
-    .table-hover tbody tr:hover {
-        background-color: #6dd1ec4f;
-        color: white;
-        cursor: pointer;
-    }
+.custom-btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
 
-    .custom-btn {
-        background-color: white;
-        color: #007bff;
-        transition: background-color 0.3s, color 0.3s;
-        cursor: pointer;
-    }
+.custom-btn {
+    background-color: rgb(37, 129, 233);
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+.ga {
+    position: absolute;
+    left: 12px;
+    padding-top: 9px;
+    color: #007bff;
+    pointer-events: none;
+    z-index: 2; /* Asegura que el ícono esté en la parte superior */
+  }
+  
 
-    .custom-btn:hover {
-        background-color: #007bff;
-        color: white;
-    }
-    .btn-small-text{
-        font-size: 1px;
-    }
+.c-btn:hover {
+    background-color: #000000;
+    color: white;
+}
 
-    .lect-fond:hover {
-        background-color: rgb(201, 235, 248);
-        cursor: pointer;
-    }
+.c-btn:hover {
+    background-color: #007bff;
+    color: white;
+}
 
-    .colorb {
-        border-color: rgb(155, 210, 212);
-    }
-    .circle {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        background-color: white;
-        color: #007bff;
-        cursor: pointer;
-    }
+.table-hover tbody tr:hover {
+    background-color: #d5ffff46;
+    color: white;
+    cursor: pointer;
+}
 
-    .circle:hover {
-        background-color: #007bff;
-        color: white;
-    }
-    .circle-container {
-        display: flex;
-        align-items: center;
-    }
-    .estad{
-       cursor: pointer; 
-       background-color: rgba(36, 139, 91, 0.26);
-    }
-    .estado-txt{
-        font-family: 'Raleway', sans-serif;
-        font-size: 13px;
-    }
-    .textbac{
-        font-family: 'Wix Madefor Text', sans-serif;
-    }
-    .texttab{
-        font-family: 'Open Sans', sans-serif;
-    }
-    .textp1{
-        font-family: 'Noto Sans', sans-serif;
-    }
-    .txtp1{
-        font-family: 'Wix Madefor Text', sans-serif;
-        font-weight: bold; 
-    }
+.circle-container {
+    display: flex;
+    align-items: center;
+}
+.selects{
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #007bff;
+    margin-right: 5px;
+}
+
+.circle:hover {
+    background-color: #007bff;
+    color: white;
+}
+.c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #007bff;
+    margin-right: 5px;
+    
+}
+.c:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+
+
+.textbac{
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+.texttab{
+    font-family: 'Open Sans', sans-serif;
+} 
+
+
+.estad {
+    cursor: pointer;
+    background-color: #c8f383e0;
+    color: rgb(0, 0, 0);
+    width: 120px;
+}
+
+
+.esta {
+    cursor: pointer;
+    background-color: #f7ae26e0;
+    color: rgb(0, 0, 0);
+    width: 120px;
+}
+
+.est {
+    cursor: pointer;
+    background-color: #4ecfc9e0;
+    color: rgb(0, 0, 0);
+    width: 120px;
+}
+
+
+.estado-txt {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}

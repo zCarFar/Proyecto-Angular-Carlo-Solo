@@ -1,102 +1,242 @@
+<div class="container">
+    <div class="general m-2">
+        <div class="row d-block justify-content-center pt-4">
 
-<div class="general m-3">
-    <div class="row d-block justify-content-center">
-
-        <div class="col col-12 col-md-12 col-xs-12 col-sm-12 col-lg-12 mb-1 mt-4" >
-            <h1 style="padding-top: 7px; font-weight: bold;">Pagos</h1>
-            <p>Haz un seguimiento de los pagos de tus clientes</p>
-
-            <div>
-
-            </div>
-        </div>
-
-
-      
-
-        <div class="col col-12 col-md-12 col-xs-12 col-sm-12 col-lg-12 mb-4 mt-4">
-            <div class=" rounded-top text-center shadow p-2" style="background-color: #ffffff;">
-                <div class="row d-flex justify-content-between align-items-center mt-1">
-                    <div class="col col-lg-2 text-center">
-                        <h3 style="font-size: medium;">Todos los pagos</h3>
+            <div class="col col-12 col-md-12 col-xs-12 col-sm-12 col-lg-12 mb-1 mt-4 textbac" style="font-family: 'Poppins', sans-serif;">
+                <div class="row d-flex justify-content-between" >
+                    <div class="col col-lg-4">
+                        <h1 style="font-family: 'Poppins', sans-serif; font-size: 28px;" class="textbac"> <strong>Pedidos</strong></h1>
                     </div>
-                    <div class="col-lg-5 col-md-6 col-sm-7 col-xs-7 col-12 mb-2">
-                        <div class="row d-flex justify-content-center">
-                            <div class="col col-lg-3 col-md-5 col-sm-5 col-xs-5 col-3 pt-1 ">
-                                <button
-                                    class="btn btn-ligth btn-sm rounded-5 border border-primary w-100 custom-btn textbac">
-                                    <i class="fa-solid fa-filter"></i>
-                                    Filtrar</button>
-                            </div>
-                            <div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2 pt-1 ">
-                                <div class="circle-container justify-content-center">
-                                    <div class="circle">
-                                        <i class="fa-solid fa-download"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-lg-7 col-md-5 col-sm-5 col-xs-5 col-7 pt-1 ">
-                                <div class="input-group rounded-2">
-                                    <span class="input-group-text border-primary custom-btn">
-                                        <i class="fa-solid fa-magnifying-glass"></i>
-                                    </span>
-                                    <input class="form-control form-control-sm border-primary textbac"
-                                        type="search" placeholder="Nombre, identificación de pago" aria-label="Search">
-                                </div>
+                    <div class="col col-lg-6 text-end">
+                        <div class="row d-flex justify-content-end">
+                            
+                            <div class="col col-lg-4">
+                                <button class="btn btn-light btn-sm rounded-4 custom-btn" style="font-family: 'Poppins', sans-serif; margin-bottom: 10px;">
+                                    <i class="fa-solid fa-plus"></i>  Agregar nuevo pedido   
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="table-responsive">
-                <table class="table table-hover rounded-bottom shadow" style="background-color: #ffffff;">
+            
 
-                    <thead class="border border-ligth text-center texttab border-primary" style="background-color:#4481dd5e">
-                        <tr>
-                            <th class="col-2">Fecha</th>
-                            <th >Cliente</th>
-                            <th >Producto/Servicio</th>
-                            <th >Metodo pago</th>
-                            <th class="col-1">Estado</th>
-                            <th class="col-2">Monto</th>
-                        </tr>
-                    </thead>
+            <div class="col col-12 col-md-12 col-xs-12 col-sm-12 col-lg-12 mb-4 mt-4">
+                <div class=" rounded-top text-center shadow p-2 textbac" style="background-color: #ffffff;">
+                    <div class="row d-flex justify-content-between align-items-center mt-1 ">
 
-                    <tbody class="text-center list-grup textbac" style="cursor: pointer;">
-                        <tr>
-                            <td>10, may..00:02</td>
-                            <td>Carlo Gabriel Leo Farfán Nuñez</td>
-                            <td>Producto</td>
-                            <td>Pagar personalmente en la sede administrativa</td>
-                            <td>
-                                <div class="estad border-ligth bg-succes">
-                                    <p class="estado-txt m-1">
-                                        No procesado</p>
+                        <div class="col-lg-2 col-md-4 col-sm-5 col-xs-5 col-12 mb-2 pt-1">
+                            <select class="form-select form-select-sm rounded-5 text-center lect-fond colorb border border-primary"
+                                aria-label=".form-select-sm example " style="font-family: 'Poppins', sans-serif;">
+                                <option selected>Todos los pedidos...</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-5 col-md-6 col-sm-7 col-xs-7 col-12 mb-2" style="font-family: 'Poppins', sans-serif;">
+                            <div class="row d-flex justify-content-end">
+                                <div class="col col-lg-2 d-flex justify-content-end align-items-end  pt-1">
+
+                                <div class="c border border-primary " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" style="cursor: pointer;">
+                                    <i class="fa-solid fa-arrow-up-from-bracket "></i>
                                 </div>
-                            </td>
-                            <td style="font-weight: bold;">S/45.00</td>
-                        </tr>
-                        <tr>
-                            <td>10, may..00:02</td>
-                            <td>Carlo Gabriel Leo Farfán Nuñez</td>
-                            <td>Producto</td>
-                            <td>Pagar personalmente en la sede administrativa</td>
-                            <td>
-                                <div class="estad border-ligth">
-                                    <p class="estado-txt m-1">CONCRETADO</p>
+                                
+                            </div>
+                                <div class="col col-lg-5 col-md-7 col-sm-7 col-xs-7 col-7 pt-1  " >
+                                    <div class="input-group rounded-2">
+                                        
+                                        <input class="form-control form-control-sm border-primary textbac" type="search"
+                                         placeholder="Buscar..." aria-label="Search" style="border-radius: 30px; padding-left: 30px; font-family: 'Poppins', sans-serif;">
+                                         <i class="fa-solid fa-magnifying-glass ga "></i>
+                                      </div>
                                 </div>
-                            </td>
-                            <td style="font-weight: bold;">S/45.00</td>
-                        </tr>
-                    </tbody>
-                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="table-responsive">
+                    <table class="table table-hover rounded-bottom shadow" style="background-color: #ffffff;">
+
+                        <thead class="border border-primary text-center texttab" style="background-color:#D6E6FE; font-family: 'Poppins', sans-serif;" >
+                            <tr class="text-center">
+                                
+                                <th class="col-1 justify-content-center  align-items-center">
+                                    <div class="form-check ">
+                                        <input class="form-check-input border-primary" type="checkbox" value=""
+                                            id="checkboxPrincipal">
+                                    </div>
+                                </th>
+                                <th class="col-lg-1">Pedido</th>
+                                <th class="col-lg-2">Fecha</th>
+                                <th class="col-lg-3">Cliente</th>
+                                <th class="col-lg-2">Pago</th>
+                                <th class="col-lg-2">Estado</th>
+                                <th class="col-lg-2">Total</th>
+                                
+                            </tr>
+                        </thead>
+
+                        <tbody class="text-center textbac" style="cursor: pointer;">
+                            <tr style="font-family: 'Poppins', sans-serif;">
+                                <td>
+                                    <div class="form-check">
+                                        <input class="form-check-input border-primary" type="checkbox" value=""
+                                            id="checkboxSecundario">
+                                    </div>
+                                </td>
+                                <td> <h3 style="font-family: 'Poppins', sans-serif;">#10002</h3></td>
+                                <td ><div class="div">10 may 2023,
+                                    0:08</div>
+                                    
+                                </td>
+                                <td>Eduardo Estefano Vejarano Hernandez</td>
+                                
+                                <td>
+                                
+                                <div class="d-flex align-items-center justify-content-center" style="margin-right: 10px;">
+                                    <div class="estad border-ligth">
+                                    <p class="estado-txt m-1"><strong>PAGADO</strong></p>
+                                </div>
+                                
+                                </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center justify-content-center" style="margin-right: 10px;">
+                                        <div class="est border-ligth">
+                                        <p class="estado-txt m-1"><strong>PROCESADO</strong></p>
+                                    </div>
+                                    
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="td">S/.215.00</div>
+                                </td>
+                                
+                            </tr>
+
+
+                            <tr style="font-family: 'Poppins', sans-serif;">
+                                <td>
+                                    <div class="form-check">
+                                        <input class="form-check-input border-primary" type="checkbox" value=""
+                                            id="checkboxSecundario">
+                                    </div>
+                                </td>
+                                <td> <h3 style="font-family: 'Poppins', sans-serif;">#10002</h3></td>
+                                <td ><div class="div">10 may 2023,
+                                    0:08</div>
+                                    
+                                </td>
+                                <td>Eduardo Estefano Vejarano Hernandez</td>
+                                
+                                <td>
+                                
+                                <div class="d-flex align-items-center justify-content-center" style="margin-right: 10px;">
+                                    <div class="estad border-ligth">
+                                    <p class="estado-txt m-1"><strong>PAGADO</strong></p>
+                                </div>
+                                
+                                </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center justify-content-center" style="margin-right: 10px;">
+                                        <div class="esta border-ligth">
+                                        <p class="estado-txt m-1"><strong>NO PROCESADO</strong></p>
+                                    </div>
+                                    
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="td">S/.215.00</div>
+                                </td>
+                                
+                            </tr>
+
+
+                            <tr style="font-family: 'Poppins', sans-serif;">
+                                <td>
+                                    <div class="form-check">
+                                        <input class="form-check-input border-primary" type="checkbox" value=""
+                                            id="checkboxSecundario">
+                                    </div>
+                                </td>
+                                <td> <h3 style="font-family: 'Poppins', sans-serif;">#10002</h3></td>
+                                <td ><div class="div">10 may 2023,
+                                    0:08</div>
+                                    
+                                </td>
+                                <td>Eduardo Estefano Vejarano Hernandez</td>
+                                
+                                <td>
+                                
+                                <div class="d-flex align-items-center justify-content-center" style="margin-right: 10px;">
+                                    <div class="estad border-ligth">
+                                    <p class="estado-txt m-1"><strong>PAGADO</strong></p>
+                                </div>
+                                
+                                </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center justify-content-center" style="margin-right: 10px;">
+                                        <div class="est border-ligth">
+                                        <p class="estado-txt m-1"><strong>PROCESADO</strong></p>
+                                    </div>
+                                    
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="td">S/.215.00</div>
+                                </td>
+                                
+                            </tr>
+
+
+                            <tr style="font-family: 'Poppins', sans-serif;">
+                                <td>
+                                    <div class="form-check">
+                                        <input class="form-check-input border-primary" type="checkbox" value=""
+                                            id="checkboxSecundario">
+                                    </div>
+                                </td>
+                                <td> <h3 style="font-family: 'Poppins', sans-serif;">#10002</h3></td>
+                                <td ><div class="div">10 may 2023,
+                                    0:08</div>
+                                    
+                                </td>
+                                <td>Eduardo Estefano Vejarano Hernandez</td>
+                                
+                                <td>
+                                
+                                <div class="d-flex align-items-center justify-content-center" style="margin-right: 10px;">
+                                    <div class="estad border-ligth">
+                                    <p class="estado-txt m-1"><strong>PAGADO</strong></p>
+                                </div>
+                                
+                                </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center justify-content-center" style="margin-right: 10px;">
+                                        <div class="est border-ligth">
+                                        <p class="estado-txt m-1"><strong>PROCESADO</strong></p>
+                                    </div>
+                                    
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="td">S/.215.00</div>
+                                </td>
+                                
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
             </div>
-
         </div>
-
-
-
     </div>
 </div>
-
